@@ -1,5 +1,6 @@
 #The Code Book
 
+
 ##Subject and activity
 
 **1. activity_label**
@@ -155,6 +156,7 @@ There are average values listed below, which were calculated for each subject an
 
 **50. fBodyGyro_std()_Z**
 *(numeric)* Average (for the subject and the activity) of fBodyGyro_std()_Z values
+
 
 ###Additional information about input variables
 The initial data for calculation of average values come from database, which based on the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.

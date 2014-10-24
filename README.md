@@ -1,4 +1,6 @@
 #README
+
+
 ##Course Project for [https://www.coursera.org/course/getdata](https://www.coursera.org/course/getdata)
 Course project includes the following files:
 * README.md: explains the purpose of each file from the Course Project  
@@ -6,6 +8,7 @@ Course project includes the following files:
 * CodeBook.md: provides information about the variables
 
 * run_analysis.R: uses packages "stringr", "dplyr", takes data from URL, which specified in the task, unzip files to the current working directory and performs 5 steps listed in the task.
+
 
 ###Main steps from run_analysis.R
 * Download and unzip data for analysis to the current working directory.
@@ -23,12 +26,7 @@ Course project includes the following files:
 * Create function (calculate_average_by_activity_and_subject) which takes some dataset, groups data by activity label and subject, then calculate mean() for each variable.
 * Create dataset which STEP5 from the task requires (result_dataset). Print result_dataset to console.
 
+
 ###Infomation about initial experiments
 Additional information about initial experiments can be found in the directory, which is created after run_analysis.R executed: "UCI HAR Dataset", in files "README.txt" and "features_info.txt". 
 
-
-
-=======
-GetData_Course_Project
-======================
->>>>>>> b841d8f0779a5c5b614b19c015e0eb90fca68fd4
