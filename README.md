@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #README
 ##Course Project for [https://www.coursera.org/course/getdata](https://www.coursera.org/course/getdata)
 Course project includes the following files:
@@ -28,3 +29,7 @@ Additional information about initial experiments can be found in the directory, 
 
 
 
+=======
+GetData_Course_Project
+======================
+>>>>>>> b841d8f0779a5c5b614b19c015e0eb90fca68fd4
