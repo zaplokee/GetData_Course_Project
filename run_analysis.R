@@ -2,9 +2,9 @@ library(stringr)
 library(dplyr)
 
 #download data for analysis
-#fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileURL, destfile="data_for_course_project.zip")
-#unzip("data_for_course_project.zip")
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileURL, destfile="data_for_course_project.zip")
+unzip("data_for_course_project.zip")
 setwd("./UCI HAR Dataset")
 parent_directory<-getwd()
 
