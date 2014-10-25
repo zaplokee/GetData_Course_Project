@@ -190,7 +190,7 @@ Average values of the variables from initial datasets ("X_test.txt" and "X_train
 **60. fBodyGyroStdZ**
 *(numeric)* Average (for the subject and the activity) of fBodyGyro-std()-Z values
 
-**61. fBodyAccMagMean
+**61. fBodyAccMagMean**
 *(numeric)* Average (for the subject and the activity) of fBodyAccMag-mean() values
 
 **62. fBodyAccMagStd**
