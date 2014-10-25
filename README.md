@@ -22,9 +22,9 @@ Course project includes the following files:
   + Combine data from "X_test.txt" and "y_test.txt" (or "X_train.txt" and "y_train.txt") by column;
   + Add column with kind of observation ("test" or "train");
   + Read "subject_test.txt" (or "subject_train.txt"), add column with  subject identifier;
-* Make two datasets for test and train data using the function *combineSubjectXsetActivityKind*. Merge them together (STEP1 from the task)
+* Make two datasets for test and train data using the function *combineSubjectXsetActivityKind*. Merge them together (STEP1 from the task).
 * Change column names for columns with variables from "X_test.txt" or "X_train.txt", replace default names with names from features.txt.
-* Create new dataset (extractedMeanStdDataset) by extracting only the measurements on the mean and standard deviation (STEP2 from the task).
+* Create new dataset (*extractedMeanStdDataset*) by extracting only the measurements on the mean and standard deviation (STEP2 from the task).
 * Create a function (*makeVariableNamesPretty*) which helps to make descriptive variable names (STEP4 from the task).
 * Create function (*calculateAverageByActivityAndSubject*) which takes some dataset, groups data by activity label and subject, then calculate mean() for each variable.
 * Create dataset which STEP5 from the task requires (*resultDataset*). Print *resultDataset* to console. Create file (result_dataset.txt).

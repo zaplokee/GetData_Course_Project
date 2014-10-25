@@ -145,8 +145,8 @@ Average values of the variables from initial datasets ("X_test.txt" and "X_train
 **45. fBodyAccMeanZ**
 *(numeric)* Average (for the subject and the activity) of fBodyAcc-mean()-Z values
 
-**46. fBodyAcc-std()-X**
-*(numeric)* Average (for the subject and the activity) of fBodyGyro_mean()_Y values
+**46. fBodyAccStdX**
+*(numeric)* Average (for the subject and the activity) of fBodyAcc-std()-X values
 
 **47. fBodyAccStdY**
 *(numeric)* Average (for the subject and the activity) of fBodyAcc-std()-Y values
@@ -230,6 +230,10 @@ The initial data for calculation of average values come from database, which bas
 *"Body"* goes for body signals (from accelerometer or gyroscope).
 
 *"Gravity"* goes for gravity acceleration signals.
+
+*"Acc"* goes for accelerometer signals.
+
+*"Gyro"* goes for gyroscope signals.
 
 *"Mag"* - the magnitude of the three-dimensional signals were calculated using the Euclidean norm. 
 
